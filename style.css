@@ -1,0 +1,59 @@
+/* sets standard setting for entire webpage*/
+main, body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: lightslategrey;
+}
+/* Sets layout of hr blocks*/
+hr {
+    background-color: darkslategray;
+    border: none;
+    height: 3px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+/* color of link unused and not hovering*/
+a:link{
+    color: darkslategray;
+}
+/* color of link used and not hovering*/
+a:visited{
+    color: darkolivegreen;
+}
+/* color of link hovering*/
+a:hover{
+    color: lightblue;
+}
+/* color of link clicking*/
+a:active{
+    color: gray;
+}
+/* increases the size of h1*/
+h1 {
+    font-size: xx-large;
+}
+/* gives more room for the header*/
+header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* aligns the bullet points*/
+ul, ol {
+    list-style-position: inside;
+    padding-left: 10px;
+}
+/* sets background of header*/
+body > header {
+    background-color: lavender;
+}
+/* sets background of footer and aligns to the right */
+footer {
+    text-align: right;
+    background-color: lavender;
+}
+/* sets text to be centered*/
+p {
+    margin-left: 150px;
+    margin-right: 150px;
+}
